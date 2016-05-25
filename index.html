@@ -1,0 +1,117 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+ 
+    <meta charset="utf-8">
+    <title>Wedding</title>
+    <meta name="description" content="">
+    <meta name="author" content="HidayatHasan.net">
+ 
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	
+<style>
+
+.tab li.l1{
+background-color:white;
+}
+</style>	
+
+<script>
+
+
+	$(function(){
+		$("#datepicker").datepicker({
+		showOn:"button",
+		buttonImage:"images/date.png",
+		buttonImageOnly:true,
+		showAnim:"clip"
+		});
+	
+	});
+	
+	$(function(){
+		$(document).tooltip({
+		show:{ effect:"slideDown",
+		delay:200
+		}
+		});
+	});
+</script>
+ 
+</head>
+<body>
+	<div id="wrapper">
+	
+		
+	<div class="ribbon-wrapper">
+		<div class="ribbon"><a href="#" title="How to get to our wedding">Map!</a></div>
+	</div>
+	
+	
+		<div class="menu">
+			<ul class="tab">
+				<li class="l1" ><a class="tabref1"  href="#">Invitation</a></li>
+				<li class="l2" ><a class="tabref2"  href="#">About us</a></li>
+				<li class="l3" ><a class="tabref3"  href="#">Pictures</a></li>
+			</ul>
+		</div>
+		
+			<div id="calendar">
+			<input type="text" id="datepicker" style="visibility:hidden;" />
+			
+			<!-- <a href="#" id="calimg"  title="checkout our calendar!"><img src="images/date.png" width="50px" height="50px"></a> -->
+			</div>
+			
+		
+		<div id="container">
+			
+			<div class="content">
+			<h2>Angel & Tony</h2>
+			<h3>2.22.2012</h3>
+
+			<br/><br/>
+			<h4>Appetizer</h4>
+			<nav>
+				<li>Shrimp Soup</li>
+				<li>Chicken Asparagus Soup</li>
+			</nav>
+			<br/>
+			<h4>Main</h4>
+			<nav>
+				<li>Black Pepper Steak with mashed potato</li>
+				<li>Chicken Alfredo</li>
+			</nav>
+			<br/>
+			
+			<h4>Dessert</h4>
+			<nav>
+				<li>Banana Puding Cake</li>
+				<li>Fruit Tart</li>
+				<li>Wedding Cake</li>
+			</nav>
+			<br/>
+			
+
+
+		
+			</div>
+		</div>
+
+</div>
+<br/>
+	<div id="footnote">
+	<a href="http://www.HidayatHasan.net" target="_blank">Copyright © 2013 HidayatHasan.net</a>
+	</div>
+</body>
+</html>
